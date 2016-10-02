@@ -1,8 +1,5 @@
-# Header
 menu:
   Overview: /
-  LeetCode: /categories/LeetCode
-  # hihoCoder: /categories/hihoCoder
-inc_categories: ["LeetCode", "hihoCoder", "Jobdu"]
+  Archives: /archives
 
 logo: img/logo.png
