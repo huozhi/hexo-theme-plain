@@ -1,0 +1,11 @@
+header.site-header
+  nav.navbar
+    ul.navbar
+      li
+        a(href=config.root) Overview
+      - for (var i in theme.inc_categories)
+        li
+          a(href=config.root + 'categories/' + theme.inc_categories[i])= theme.inc_categories[i]
+    ul.navbar.pull-right
+      li
+        a(href=config.base_url) Huozhi's Blog        

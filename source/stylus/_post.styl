@@ -1,0 +1,73 @@
+.article-title
+  display: block
+  margin-bottom: space-3
+
+
+blockquote
+  line-height: 1.2
+  margin-left: space-3
+  font-family: ff
+  
+blockquote footer
+  padding-top: space-2
+  position: relative
+  top: -20px
+  
+blockquote cite
+  &:before
+    content: "—"
+    padding: 0 0.5em
+
+.pullquote
+  text-align: left
+  width: 50%
+  margin: 0
+
+  &.left
+    margin-right: 0.5em
+
+  &.right
+    margin-left: 0.5em
+    text-align: right
+
+table
+  width: 100%
+
+thead th,tbody td
+  border: border
+  padding: 5px 5px
+
+.lines td
+  border: none
+
+.meta
+  padding-top: space-0
+
+.meta-tags:before
+  content: "Tag: "
+
+.meta-cats:before
+  content: "Category:  "
+
+.content-nav
+  padding: space-4 0 0
+  position: relative
+  letter-spacing: 1px
+
+/*
+  Responsive iframe
+*/
+.video-container
+  position: relative
+  padding-top: (9 / 16 * 100)% // 16:9 ratio
+  height: 0
+  overflow: hidden
+  margin-bottom: 40px
+
+  iframe, object, embed
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    margin-top: 0

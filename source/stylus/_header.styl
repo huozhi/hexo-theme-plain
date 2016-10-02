@@ -1,0 +1,49 @@
+.title
+  text-align: center
+
+.navbar
+  display: inline-block
+  content: " "
+
+
+.site-header
+  padding-left: 20px
+  padding-right: 20px 
+
+.site-header
+  nav
+    display: block
+    min-height: 55px
+    margin-bottom: 15px
+    li > a
+      position: relative
+      display: block
+      padding: 15px 15px 15px 15px
+      line-height: 20px
+      color: color-blue
+      
+      // color: #777
+
+    li > a:hover,
+    li > a:focus
+      color: color-blue
+      background-color: transparent
+    
+    .active > a,
+    .active > a:hover,
+    .active > a:focus
+      color: color-black
+      background-color: #e7e7e7
+
+
+.site-header li
+  margin-right: 10px
+
+.site-header li:last-child
+  margin-right: 0
+  
+@media mq-mobile
+  .site-header
+    padding-left: 0px
+    padding-right: 0px 
+
