@@ -1,11 +1,9 @@
 header.site-header
   nav.navbar
     ul.navbar
-      li
-        a(href=config.root) Overview
-    - for (var i in theme.menu)
-      li
-        a(href=config.root + '/' + config.menu[i])= i
+      - for (var label in config.menu)
+        li
+          a(href=config.root + '/' + config.menu[label])= label
     ul.navbar.pull-right
       li
         a(href=config.base_url) Home

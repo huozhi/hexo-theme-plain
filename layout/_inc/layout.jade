@@ -3,7 +3,7 @@ doctype html
 html(lang="id")
   head
     include head.jade
-  body      
+  body
     include header.jade
     div.container
       .title
@@ -12,12 +12,6 @@ html(lang="id")
         if config.subtitle
           p
             = config.subtitle
-          span including:&nbsp;
-          span
-            = theme.inc_categories.join(', ')
       main(class='site-main', role='main')
           block main
       include footer.jade
-    
-    script(src="/bower_components/jquery/dist/jquery.min.js")
-    script(src="/fancybox/jquery.fancybox.pack.js")
