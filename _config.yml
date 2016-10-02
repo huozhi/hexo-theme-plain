@@ -66,6 +66,10 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: plain
 
+menu:
+  Overview: /
+  Archives: /archives
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

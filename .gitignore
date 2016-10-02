@@ -1,3 +1,6 @@
 db.json
 .DS_Store
 node_modules
+public
+.deploy_git
+npm-debug*.log
